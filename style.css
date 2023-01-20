@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-bar{
+    height: 8vh;
+    background-color: #F97100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-bar p{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.capa{
+    background-image: url('/img/capa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 150px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px auto;
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.secao1 p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+.poke-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: white;
+}
+.first-card,
+.second-card,
+.third-card{
+    width: 25%;
+    height: 380px;
+    background-color: #FFB400;
+    margin-right: 30px;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 25px 15px #F97100 inset;
+}
+.poke-card ul li{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 40px;
+}
+.second-card{
+    width: 25%;
+    height: 380px;
+    background-color: #FFB400;
+    margin-right: 30px;
+    border-radius: 12px;
+}
+.third-card{
+    width: 25%;
+    height: 380px;
+    background-color: #FFB400;
+    margin-right: 30px;
+    border-radius: 12px;
+}
+.card-poke-x{
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 30px;
+}
+.card-poke-x img{
+    width: 350px;
+    margin: 10px 18px;
+    box-shadow: 7px 7px 8px 5px #818181;
+}
+a{
+    font-size: 25px;
+}
+.footer{
+    height: 8vh;
+    background-color: #F97100;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
